@@ -1,0 +1,524 @@
+<!--DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Ilustre | Inicio</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo nav-link">El Ilustre</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Blog</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Videos</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Sobre mí</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link nav-menu-link_active"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Responsive Navbar</h1>
+    </main>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>El Ilustre | Inicio</title>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg " style="background-color: black">
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="#"><img src="img/Logo.jpg" alt="" style="width: 150px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="row" style="width: 100%">
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-10" style="width: 100%; margin-left:12px">
+            <nav class="menu" id="menu">
+                <div class="contenedor contenedor-botones-menu">
+                    <button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+                    <button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+                </div>
+            
+                <div class="contenedor-enlaces-nav">
+                    <div class="butcat" id="btn-departamentos">
+                        <span>Categorias <i class="fas fa-caret-down"></i></span>
+                    </div>
+                </div>
+            
+                            <div class="contenedor contenedor-grid">
+                                <div class="grid" id="grid">
+                                    <div class="categorias">
+                                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                                        <h3 class="subtitulo">Categorias</h3>
+            
+                                        <a href="#" data-categoria="tecnologia-y-computadoras">Fútbol</a>
+                                        <a href="#" data-categoria="libros">Rugby </a>
+                                        <a href="#" data-categoria="ropa-y-accesorios">Basket </a>
+                                        <a href="#" data-categoria="hogar-y-cocina">Hockey </a>
+                                        <a href="#" data-categoria="juegos-y-juguetes">Automovilismo </a>
+                                        <a href="#" data-categoria="salud-y-belleza">Handball </a>
+                                        <a href="#" data-categoria="alimentos-y-bebidas">Volley </a>
+                                    </div>
+            
+                                    <div class="contenedor-subcategorias">
+                                        <div class="subcategoria " data-categoria="tecnologia-y-computadoras">
+                                            <div class="enlaces-subcategoria">
+                                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                                <h3 class="subtitulo">Fútbol</h3>
+                                                <a href="#">Internacional</a>
+                                                <a href="#">Primera Nacional</a>
+                                                <a href="#">Primera B Nacional</a>
+                                                <a href="#">Provincial</a>
+                                                <a href="#">Noticias Futbol Municipal</a>
+                                            </div>
+            
+                                            <!-- Panel de fotografias, preguntar si es de interes ponerlo
+                                            <div class="banner-subcategoria">
+                                                <a href="#">
+                                                    <img src="./img/tecnologia-banner-1.png" alt="">
+                                                </a>
+                                            </div>
+            
+                                            <div class="galeria-subcategoria">
+                                                <a href="#">
+                                                    <img src="./img/tecnologia-galeria-1.png" alt="">
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./img/tecnologia-galeria-2.png" alt="">
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./img/tecnologia-galeria-3.png" alt="">
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./img/tecnologia-galeria-4.png" alt="">
+                                                </a>
+                                            </div>-->
+                                        </div>
+            
+                                        <div class="subcategoria" data-categoria="libros">
+                                            <div class="enlaces-subcategoria">
+                                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                                <h3 class="subtitulo">Rugby</h3>
+                                                <a href="#">Los Pumas</a>
+                                                <a href="#">Sub2</a>
+                                                <a href="#">Sub3</a>
+                                                <a href="#">Sub4</a>
+                                            </div>
+                                        </div>
+            
+                                        <div class="subcategoria" data-categoria="ropa-y-accesorios">
+                                            <div class="enlaces-subcategoria">
+                                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                                <h3 class="subtitulo">Basket</h3>
+                                                <a href="#">Sub1</a>
+                                                <a href="#">Sub2</a>
+                                                <a href="#">Sub3</a>
+                                                <a href="#">Sub4</a>
+                                            </div>
+                                        </div>
+            
+                                        <div class="subcategoria" data-categoria="hogar-y-cocina">
+                                            <div class="enlaces-subcategoria">
+                                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                                <h3 class="subtitulo">Hockey</h3>
+                                                <a href="#">Las Leonas</a>
+                                                <a href="#">Sub1</a>
+                                                <a href="#">Sub2</a>
+                                                <a href="#">Sub3</a>
+                                                <a href="#">Sub4</a>
+                                            </div>
+                                        </div>
+            
+                                        <div class="subcategoria" data-categoria="juegos-y-juguetes">
+                                            <div class="enlaces-subcategoria">
+                                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                                <h3 class="subtitulo">Automovilismo</h3>
+                                                <a href="#">Sub1</a>
+                                                <a href="#">Sub2</a>
+                                                <a href="#">Sub3</a>
+                                                <a href="#">Sub4</a>
+                                            </div>
+                                        </div>
+            
+                                        <div class="subcategoria" data-categoria="salud-y-belleza">
+                                            <div class="enlaces-subcategoria">
+                                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                                <h3 class="subtitulo">Handball</h3>
+                                                <a href="#">Sub1</a>
+                                                <a href="#">Sub2</a>
+                                                <a href="#">Sub3</a>
+                                                <a href="#">Sub4</a>
+                                            </div>
+                                        </div>
+            
+                                        <div class="subcategoria" data-categoria="alimentos-y-bebidas">
+                                            <div class="enlaces-subcategoria">
+                                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                                <h3 class="subtitulo">Volley</h3>
+                                                <a href="#">Sub1</a>
+                                                <a href="#">Sub2</a>
+                                                <a href="#">Sub3</a>
+                                                <a href="#">Sub4</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        
+                            </div>
+                            
+                          
+                        </div>
+                        </nav>
+
+          <div id="carouselExampleCaptions" class="carousel slide caro" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <a href="#">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/carousel.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>El ¿offside? del gol anulado a Girotti</h5>
+                    <p>El delantero había marcado el 2 a 0 de Talleres ante Banfield pero el VAR validó una posición adelantada de centímetros.</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/_carousel1.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Alvarado en busca de un nuevo entrenador</h5>
+                    <p>Con la salida de Manuel Fernández, el Torito se ve obligado a buscar un reemplazante que pueda cambiar la imagen del arranque del torneo.</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Instituto logró un triunfazo en Chaco</h5>
+                    <p>Con la clave de los hermanos Watson, La Gloria venció 2-1 en Resistencia y llegó a seis sin perder.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+          <div class="row" style="padding-top: 8px;">
+            <div class="col-md-8">
+              <table class="table table-dark table-striped-columns" style="padding: 3px; border-radius: 5px;">
+                <thead>
+                  <tr>
+                    <th colspan="12" style="text-align: center;">Primera Division</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th style="text-align: center;" colspan="1">18:30</th>
+                    <td colspan="4">River</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="4">Boca</td>
+                    <td colspan="2" style="text-align: center;">+</td>
+                  </tr>
+                  <tr>
+                    <th style="text-align: center;" colspan="1">18:30</th>
+                    <td colspan="4">Racing</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="4">Independiente</td>
+                    <td colspan="2" style="text-align: center;">+</td>
+                  </tr>
+                  <tr>
+                    <th style="text-align: center;" colspan="1">18:30</th>
+                    <td colspan="4">San Lorenzo</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="4">Huracan</td>
+                    <td colspan="2" style="text-align: center;">+</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th colspan="12" style="text-align: center;">Primera Nacional</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th style="text-align: center;" colspan="1">15:45</th>
+                    <td colspan="4">Instituto</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="4">Estudiantes (RC)</td>
+                    <td colspan="2" style="text-align: center;">+</td>
+                  </tr>
+                  <tr>
+                    <th style="text-align: center;" colspan="1">18:30</th>
+                    <td colspan="4">Atlanta</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="4">Boca Unidos</td>
+                    <td colspan="2" style="text-align: center;">+</td>
+                  </tr>
+                  <tr>
+                    <th style="text-align: center;" colspan="1">21:30</th>
+                    <td colspan="4">San Telmo</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="4">All Boys</td>
+                    <td colspan="2" style="text-align: center;">+</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th colspan="12" style="text-align: center;">Federal A</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th style="text-align: center;" colspan="1">16:35</th>
+                    <td colspan="4">Desamparados</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="4">Independiente (CH)</td>
+                    <td colspan="2" style="text-align: center;">+</td>
+                  </tr>
+                  <tr>
+                    <th style="text-align: center;" colspan="1">22:15</th>
+                    <td colspan="4">Sp. Belgrano (SF)</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="1" style="text-align: center;">0</td>
+                    <td colspan="4">Douglas Haig</td>
+                    <td colspan="2" style="text-align: center;">+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-bg-dark" style="max-width: 90rem; height: 580px; background-image: url(img/Not_1.jpg); background-size: cover; background-position: center; border-color: black">
+                
+                <div class="card-img-overlay">
+                  <h5 class="card-title"> <b> River hoy: el futuro de Juanfer Quintero, la figura que recupera Gallardo y últimas noticias </b></h5>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <p class="card-text">El equipo dirigido por Marcelo Gallardo venció 1 a 0 a Gimnasia, con gol de Lucas Beltrán en el Monumental, y cortó una seguidilla de tres partidos sin conocer la victoria.</p>
+                  <a href="notices.html"><button class="btn btn-dark">Ver Mas</button></a>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted">For Nano Marmol</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4" style="padding-top: 8px;">
+            <div class="col-md">
+              <div class="card h-100" style="background-color: #19191a; color: white; border-color: black;">
+                <img src="img/Not_2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">La durísima frase del agente de Rossi sobre su sueldo en Boca</h5>
+                  <p class="card-text">El representante del arquero no fue optimista respecto a su renovación y le pegó al Consejo de Riquelme.</p>
+                  <a href="#"><button class="btn btn-dark">Ver Mas</button></a>
+                </div>
+                
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <small class="text-muted">For Ivan Moreira</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md">
+            <div class="card h-100" style="background-color: #19191a; color: white; border-color: black;">
+                <img src="img/Not_3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Otra buena en River: alta médica para Enzo Pérez</h5>
+                  <p class="card-text">Aunque se esperaba su vuelta ante Sarmiento, el capitán respondió bien a 12 días de su desgarro y viajaría a Mar del Plata.</p>
+                  <a href="#"><button class="btn btn-dark">Ver Mas</button></a>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 2 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+            <div class="card h-100" style="background-color: #19191a; color: white; border-color: black;">
+                <img src="img/Not_4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Moyano cedió y habrá elecciones en el Rojo</h5>
+                  <p class="card-text">La agrupación del líder camionero confirmó que no apelará el fallo que habilitó a Doman y el miércoles habrá una reunión para ponerle fecha al comicio.</p>
+                  <a href="#"><button class="btn btn-dark">Ver Mas</button></a>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 1 hour ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+    
+    
+    
+
+
+
+
+
+
+    <div class="container">
+                <input type="checkbox" id="btn-mas">
+                <div class="redes">
+                  <a href="https://www.facebook.com/ElIlustreDeportes/" class="fa fa-facebook"></a>
+                  <a href="https://www.youtube.com/channel/UCSb9iWxgrNgAuxB_KfFWucg" class="fa fa-youtube"></a>
+                  <a href="https://www.instagram.com/elilustredeportes/" class="fa fa-instagram"></a>
+              </div>
+                <div class="btn-mas">
+                    <label for="btn-mas" class="fa fa-plus"></label>
+                </div>
+            </div>
+
+            <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	
+            <link rel="stylesheet" href="css/ionicons.min.css">
+            <link rel="stylesheet" href="css/style.css">
+            <footer class="footer-08" style="margin-top: 40px;">
+                <div class="container-fluid px-lg-5" style="background-color: #101010; color: white;">
+                    <div class="row">
+                        <div class="col-md-9 py-5">
+                            <div class="row">
+                                <div class="col-md-4 mb-md-0 mb-4" >
+                                    <h2 class="footer-heading">Sobre nosotros</h2>
+                                    <p style="color: white;">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                    <ul class="ftco-footer-social p-0">
+                                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><span class="ion-logo-youtube"></span></a></li>
+                                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="ion-logo-facebook"></span></a></li>
+                                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="ion-logo-instagram"></span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-12 col-lg-9">
+                                            <div class="row">
+                                                <div class="col-md-12 mb-md-0 mb-4">
+                                                    <h2 class="footer-heading">About</h2>
+                                                    <ul class="list-unstyled" >
+                                                        <li><a href="#" class="py-1 d-block" style="color: white;">Ivan Moreira</a></li>
+                                                        <li><a href="#" class="py-1 d-block" style="color: white;">Nano Marmol</a></li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-md-5">
+                                <div class="col-md-12">
+                                    <p class="copyright" style="color: white;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by <a href="https://colorlib.com" target="_blank">Proware Developers</a>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5" style="background-color: #19191a">
+                            <h2 class="footer-heading footer-heading-white">Contactanos</h2>
+                            <form action="#" class="contact-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Asunto">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Mensaje"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="form-control submit px-3">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+    
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+	  <script src="js/index.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
